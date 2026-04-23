@@ -13,7 +13,7 @@ A from-scratch NosTale server that actually works the way the game was supposed 
 - **Backend**: .NET 8 microservices — login, game channels, bazaar, mail, relations, scheduling
 - **Data**: PostgreSQL + MongoDB + Redis
 - **Infra**: K3s cluster on bare metal, Traefik ingress, cert-manager TLS
-- **CI/CD**: GitHub Actions, container builds per-service, automated deployments
+- **CI/CD**: GitHub Actions, self-hosted runner, container builds per-service
 - **Hardware**: AMD EPYC, 192 GB ECC, NVMe storage — the server doesn't lag, ever
 
 ---
@@ -27,12 +27,6 @@ A from-scratch NosTale server that actually works the way the game was supposed 
 | `server-files` | Server-side configs, raid scripts, timespace scripts |
 | `server-translations` | i18n files (EN, DE, FR, PL, TR, IT, ES, CZ) |
 | `website` | Landing page at [phantom-master.com](https://phantom-master.com) |
-
----
-
-### The team
-
-Small group, no bureaucracy. Everyone touches production.
 
 ---
 
